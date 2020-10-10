@@ -133,7 +133,7 @@ class GradientBottomNavigationBar extends StatefulWidget {
         assert(backgroundColorStart != null),
         assert(backgroundColorEnd != null),
         assert(
-            items.every((BottomNavigationBarItem item) => item.title != null) ==
+            items.every((BottomNavigationBarItem item) => item.label != null) ==
                 true,
             'Every item must have a non-null title',),
         assert(0 <= currentIndex && currentIndex < items.length),
